@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "ewallet new"
+version = "0.1.0"
+description = ""
+authors = ["athira <athira@lanwaresolutions.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.110.2"
+standard = "^1.0.3"
+FastAPI-SQLAlchemy = "^0.2.1"
+pydantic = "^2.7.0"
+alembic = "^1.13.1"
+psycopg2 = "^2.9.9"
+uvicorn = "^0.29.0"
+python-dotenv = "^1.0.1"
+python-jose = "^3.3.0"
+passlib = "^1.7.4"
+python-multipart = "^0.0.9"
+jwt = "^1.3.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
